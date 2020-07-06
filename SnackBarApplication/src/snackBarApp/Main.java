@@ -10,7 +10,6 @@ public class Main {
         VendingMachine vmDrink = new VendingMachine("Drink");
         VendingMachine vmOffice = new VendingMachine("Office");
 
-        // public Snack(String name, int quantity, double cost, int vendingMachineId)
         int vmFoodId = vmFood.getId();
         Snack chips = new Snack("Chips", 36, 1.75, vmFoodId);
         Snack chocolateBar = new Snack("Chocolate Bar", 36, 1.00, vmFoodId);
